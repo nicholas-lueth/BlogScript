@@ -31,12 +31,12 @@ mysql_secure_installation
 
 echo "Installing PHP..."
 yum remove php*
-yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
-yum install http://rpms.remirepo.net/enterprise/remi-release-7.rpm
-yum install yum-utils
-yum-config-manager --enable remi-php70
-yum-config-manager --enable remi-php73
-yum install php php-mcrypt php-cli php-gd php-curl php-mysql php-ldap php-zip php-fileinfo
+yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm -y
+yum install http://rpms.remirepo.net/enterprise/remi-release-7.rpm -y
+yum install yum-utils -y
+yum-config-manager --enable remi-php70 -y
+yum-config-manager --enable remi-php73 -y
+yum install php php-mcrypt php-cli php-gd php-curl php-mysql php-ldap php-zip php-fileinfo -y
 
 echo "Restarting HTTP to load new configs..."
 systemctl restart httpd
