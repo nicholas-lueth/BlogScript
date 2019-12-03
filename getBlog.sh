@@ -2,11 +2,12 @@
 echo "Making a DB account. Please remember these for later when dealing with logging in to DB"
 echo "Username:"
 read username
-echo password
+echo Password:
+read password
 user=${username}
 pass=${password}
-sed -i 's/*USERNAME*/$user/g' /scripts/wp-config.php
-sed -i 's/*PASSWORD*/$user/g' /scripts/wp-config.php
+sed -i 's/*USERNAME*/$user/g' wp-config.php
+sed -i 's/*PASSWORD*/$user/g' wp-config.php
 
 echo "Installing WGET..."
 yum -y install wget
