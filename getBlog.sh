@@ -65,4 +65,4 @@ chown -R apache:apache /var/www/html/*
 
 echo "Making config file"
 cd /var/www/html
-cp wp-config.php /var/www/html/wp-config.php
+cp wp-config.php /var/www/html/
