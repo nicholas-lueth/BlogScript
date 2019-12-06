@@ -104,7 +104,7 @@ Wordpress has a reputation for having dangerously insecure plugins and features,
 1. Keep WordPress up to date (including themes and plugins)
 2. Use two factor authentication
 3. Strong passwords
-4. Use a reputible security plugins
+4. Use reputible security plugins
     * WordFence (Alerts and security scans)
     * iThemes Security (General all purpose protection)
 5. Only use trusted plugins and themes
