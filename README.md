@@ -75,7 +75,7 @@ These are the exact commands you need to type in order to get a running WordPres
 -	`./getBlog.sh`
 
 **Step 13**: 
-It will ask you to type in the root password. This is NOT referencing the root user we created in step 9. Press return and follow directions to reset the root password. For consistency, make this the same as you did in step 9.
+The script will ask you to type in the root password. By default, it assumes you don't have one, so press return and follow the directions to reset the root password. For consistency, make this the same as you did in step 9. Otherwise, you will have a different root password.
 
 **Step 14**: 
 The script will eventually prompt you to log in to the database. Sign in with the credentials you typed in at the beginning of the script, then type the following in:
