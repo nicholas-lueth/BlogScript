@@ -3,7 +3,8 @@
 # Special thanks to Young Chen for inspiration: https://www.linkedin.com/in/youngchen/
 
 # Make a database user
-echo "Making a DB account. Please remember these for later when dealing with logging in to DB"
+echo "Database account creation:"
+echo "(Please remember these for later when you log into your database.)"
 echo "Username:"
 read username
 echo Password:
