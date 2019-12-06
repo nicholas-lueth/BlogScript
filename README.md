@@ -96,7 +96,7 @@ At this point, the script should be done. Type `ip addr` and look for the IP add
 **Step 16**: 
 Go through the WordPress settings and enjoy your new local facing blog. If you want to make this a public website, then you’ll have to port forward, but I’ve drawn out this how-to long enough.
 
-### Making your website public
+### Making your website public:
 A video on how to setup your new website on a webhosting service: https://www.youtube.com/watch?v=E9YTRLm9SQs
 
 ### SECURITY WARNING:
