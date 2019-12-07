@@ -5,7 +5,7 @@
 CentOS is a distribution of the Linux operating system. CentOS was developed by Red Hat Enterprise, which is a distinguished software development company. If you want, you can pay Red Hat for 5 years of support services, which will provide you with some very good around the clock technical assistance and support. Linux, on the other hand, is an operating system derived from the Unix operating system, just like Mac OS X. Don't get misconstrued, the only real similarity between Mac OS X and Linux is the command line. If you have any experience with the Unix-based command lines, it will be very helpful.
 
 ### Links:
-VMware: https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_workstation_player/15_0 
+VMware: https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_workstation_player/15_0 <br>
 Fresh install link: https://www.centos.org/download/ 
 
 ## Instructions:
@@ -97,7 +97,8 @@ At this point, the script should be done. Type `ip addr` and look for the IP add
 Go through the WordPress settings and enjoy your new local facing blog. If you want to make this a public website, then you’ll have to port forward, but I’ve drawn out this how-to long enough.
 
 ### Making your website public:
-A video on how to setup your new website on a webhosting service: https://www.youtube.com/watch?v=E9YTRLm9SQs
+A video on how to setup your new website on a webhosting service: <br>
+https://www.youtube.com/watch?v=E9YTRLm9SQs
 
 ### SECURITY WARNING:
 Wordpress has a reputation for having dangerously insecure plugins and features, but luckily there are security measures you can implement to help mitigate any potential risks. 
@@ -110,5 +111,5 @@ Wordpress has a reputation for having dangerously insecure plugins and features,
 5. Only use trusted plugins and themes
 6. Use SFTP for file transfers
 
-I recommend watching this video:
+I recommend watching this video: <br>
 https://www.youtube.com/watch?v=mKlajaKllD4
