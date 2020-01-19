@@ -15,8 +15,8 @@ user=${username}
 pass=${password}
 
 # Replacing values in the wp-config.php file
-sed -i 's/*USERNAME*/$user/g' wp-config.php
-sed -i 's/*PASSWORD*/$pass/g' wp-config.php
+sed -i "s/*USERNAME\*/$user/g" wp-config.php
+sed -i "s/*PASSWORD\*/$pass/g" wp-config.php
 
 # Installing wget
 echo "Installing wget..."
