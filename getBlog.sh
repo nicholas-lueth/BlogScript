@@ -87,7 +87,7 @@ tar xzvf latest.tar.gz
 
 # Moving the wordpress files to /var/www/html/
 echo "Moving Files..."
-rsync -avP ~/script/wordpress/ /var/www/html/
+rsync -avP ~/scripts/wordpress/ /var/www/html/
 
 # Creating an uploads directory
 echo "Making uploads directory..."
