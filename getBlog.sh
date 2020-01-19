@@ -99,4 +99,4 @@ chown -R apache:apache /var/www/html/*
 
 # Copying config file over to the wordpress directory
 echo "Sending config file..."
-cp wp-config.php /var/www/html/
+cp ~/scripts/wp-config.php /var/www/html/
