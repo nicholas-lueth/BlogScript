@@ -20,7 +20,7 @@ sed -i 's/*PASSWORD*/$user/g' wp-config.php
 
 # Installing wget
 echo "Installing wget..."
-install wget -yq
+yum install wget -yq
 
 # Installing httpd
 echo "Installing HTTP..."
