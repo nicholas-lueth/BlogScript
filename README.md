@@ -6,7 +6,7 @@ CentOS is a distribution of the Linux operating system. CentOS was developed by 
 
 ### Links:
 VMware: https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_workstation_player/15_0 <br>
-Fresh install link: https://www.centos.org/download/ 
+Fresh install CentOS 7 minimal link: http://mirrors.greenmountainaccess.net/centos/7.7.1908/isos/x86_64/CentOS-7-x86_64-Minimal-1908.iso
 
 ## Instructions:
 **Step 1**: 
