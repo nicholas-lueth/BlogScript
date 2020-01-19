@@ -87,7 +87,7 @@ tar xzvf latest.tar.gz
 
 # Moving the wordpress files to /var/www/html/
 echo "Moving Files..."
-rsync -avP ~/scripts/wordpress/ /var/www/html/
+rsync -avP ~/scripts/BlogScript/wordpress/ /var/www/html/
 
 # Creating an uploads directory
 echo "Making uploads directory..."
@@ -99,4 +99,4 @@ chown -R apache:apache /var/www/html/*
 
 # Copying config file over to the wordpress directory
 echo "Sending config file..."
-cp ~/scripts/wp-config.php /var/www/html/
+cp ~/scripts/BlogScript/wp-config.php /var/www/html/
