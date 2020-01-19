@@ -46,7 +46,7 @@ mysql_secure_installation
 
 # Installing some new repoitories and installing PHP
 echo "Installing PHP..."
-yum remove php* -q
+yum remove php -q
 yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm -y -q
 yum install http://rpms.remirepo.net/enterprise/remi-release-7.rpm -y -q
 yum install yum-utils -y -q
