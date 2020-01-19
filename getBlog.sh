@@ -20,11 +20,11 @@ sed -i "s/*PASSWORD\*/$pass/g" wp-config.php
 
 # Installing wget
 echo "Installing wget..."
-yum install wget -yq
+yum install wget -y -q
 
 # Installing httpd
 echo "Installing HTTP..."
-yum install httpd -yq
+yum install httpd -y -q
 
 # Enabling and starting httpd
 echo "Starting HTTP..." 
@@ -33,7 +33,7 @@ systemctl start httpd
 
 # Installing maria db
 echo "Installing Maria DB..."
-yum install mariadb-server mariadb -yq
+yum install mariadb-server mariadb -y -q
 
 # Enabling and starting 
 echo "Starting MariaDB..."
@@ -47,12 +47,12 @@ mysql_secure_installation
 # Installing some new repoitories and installing PHP
 echo "Installing PHP..."
 yum remove php* -q
-yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm -yq
-yum install http://rpms.remirepo.net/enterprise/remi-release-7.rpm -yq
-yum install yum-utils -yq
-yum-config-manager --enable remi-php70 -yq
-yum-config-manager --enable remi-php73 -yq
-yum install php php-mcrypt php-cli php-gd php-curl php-mysql php-ldap php-zip php-fileinfo -yq
+yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm -y -q
+yum install http://rpms.remirepo.net/enterprise/remi-release-7.rpm -y -q
+yum install yum-utils -y -q
+yum-config-manager --enable remi-php70 -y -q
+yum-config-manager --enable remi-php73 -y -q
+yum install php php-mcrypt php-cli php-gd php-curl php-mysql php-ldap php-zip php-fileinfo -y -q
 
 # Restarting httpd
 echo "Restarting HTTP to load new configs..."
@@ -73,7 +73,7 @@ mysql -u root -p
 
 # Installing php graphing library
 echo "Obtaining WordPress..."
-yum install php-gd -yq
+yum install php-gd -y -q
 
 # Restarting httpd
 systemctl restart httpd
@@ -87,7 +87,7 @@ tar xzvf latest.tar.gz
 
 # Moving the wordpress files to /var/www/html/
 echo "Moving Files..."
-rsync -avP ~/scripts/BlogScript/wordpress/ /var/www/html/
+rsync -avP ~/scripts/BlogScript/wordpress/ /var/www/html/ -q
 
 # Creating an uploads directory
 echo "Making uploads directory..."
